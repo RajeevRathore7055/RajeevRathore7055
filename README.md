@@ -260,6 +260,16 @@ Focused implementations of core ML algorithms.
 
 <div align="center">
 
+### 3D Contribution Skyline
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution skyline"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
 ### Contribution Snake
 
 <img alt="contribution snake animation" src="https://raw.githubusercontent.com/RajeevRathore7055/RajeevRathore7055/output/snake.svg" width="100%"/>
