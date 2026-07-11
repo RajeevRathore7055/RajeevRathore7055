@@ -1,35 +1,30 @@
-name: Generate 3D Contribution Skyline
+name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: "0 18 * * *"   # once a day
-  workflow_dispatch:
+    - cron: "0 18 * * *"   # runs once a day
+  workflow_dispatch:          # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: build
-    permissions:
-      contents: write
+    name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate 3D contribution skyline
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          username: RajeevRathore7055
+          USERNAME: RajeevRathore7055
 
-      - name: Commit generated files
+      - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A
-          git commit -m "chore: update 3D contribution skyline" || echo "nothing to commit"
-
-      - name: Push
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          git add -A .
+          if git commit -m "generated"; then
+            git push
+          fi
