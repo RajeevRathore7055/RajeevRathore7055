@@ -239,8 +239,7 @@ Focused implementations of core ML algorithms.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=RajeevRathore7055&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=C77DFF&icon_color=FF8C42&text_color=e6d9ff" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajeevRathore7055&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=C77DFF&text_color=e6d9ff" />
+<img src="./assets/stats-card.svg" width="100%"/>
 
 <br/>
 
