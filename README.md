@@ -263,9 +263,9 @@ Focused implementations of core ML algorithms.
 ### Contribution Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RajeevRathore7055/RajeevRathore7055/output/assets/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RajeevRathore7055/RajeevRathore7055/output/assets/snake.svg" />
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/RajeevRathore7055/RajeevRathore7055/output/assets/snake.svg" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RajeevRathore7055/RajeevRathore7055/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RajeevRathore7055/RajeevRathore7055/output/snake.svg" />
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/RajeevRathore7055/RajeevRathore7055/output/snake.svg" width="100%"/>
 </picture>
 
 </div>
