@@ -22,8 +22,8 @@
 
 I'm an Agentic AI Intern at **Innomatics Research Labs**, currently building agent-based
 AI systems with LangChain and LangGraph, backed by FastAPI services and AWS infrastructure.
-My work sits at the intersection of **mathematics and machine learning** — I like problems
-that reduce cleanly to an objective function, and systems that reduce cleanly to an API
+My work sits at the intersection of **mathematics and machine learning** —<br><br>I like problems
+that reduce cleanly to an objective function and systems that reduce cleanly to an API
 contract. Final-year B.Tech CSE student at RBMI Group of Institutions (AKTU), building
 toward a career designing and shipping real AI agent architectures.
 
@@ -32,19 +32,19 @@ toward a career designing and shipping real AI agent architectures.
 ## Short Bio
 
 - 🎓 Final-year B.Tech CSE student (2023–2027) at RBMI Group of Institutions, AKTU Lucknow
-- 🤖 Agentic AI Intern at Innomatics Research Labs — LangChain, LangGraph, FastAPI, AWS
-- 📐 Strong foundation in Linear Algebra, Calculus, and core ML algorithms
-- 🛠️ Shipped ML platforms, deployed AI agents, and led a 50+ student robotics workshop
-- ♟️ Approaches problems the way I approach chess — a few moves ahead
+- 🤖 Agentic AI Intern at Innomatics Research Labs — LangChain, LangGraph, FastAPI & AWS
+- 📐 Strong foundation in Linear Algebra, Calculus & core ML algorithms
+- 🛠️ Shipped ML platforms, deployed AI agents and led a 50+ student robotics workshop
+- ♟️ Approaches problems the way I approach chess — A few moves ahead
 
 <br/>
 
 ## Current Focus
 
 ```
-Currently Learning     → Advanced LangGraph orchestration, RAG pipelines, Transformer internals
-Currently Building     → AI Interview Agent (voice), Coding Notes RAG Agent, LinkedIn Post Agent
-Research Interests     → Agentic architectures, applied ML, mathematical foundations of learning
+Currently Learning     → Advanced LangGraph orchestration, RAG pipelines & Transformer internals
+Currently Building     → AI Interview Agent (voice), Coding Notes RAG Agent & LinkedIn Post Agent
+Research Interests     → Agentic architectures, applied ML & Mathematical foundations of learning
 Current Tech Stack     → Python · FastAPI · LangChain · LangGraph · Hugging Face · AWS · Docker
 ```
 
@@ -55,16 +55,16 @@ Current Tech Stack     → Python · FastAPI · LangChain · LangGraph · Huggin
 I specialize in programming and software development with a particular pull toward
 **data analytics and machine learning**. My foundation in mathematics — linear algebra
 and calculus — isn't academic box-ticking; it's the lens I use to actually understand
-*why* a model works, not just how to call `.fit()`.
+*why* a model works & not just how to call `.fit()`.
 
 Day to day, that shows up as: building AI agents at Innomatics Research Labs, deploying
-ML models behind REST APIs, and picking apart algorithms (logistic regression, SVMs,
-decision trees, CNNs) until the math behind them is boring and obvious. I've run a
-Robotics & Automation workshop for 50+ students, worked across the MERN stack, and
+ML models behind REST APIs and picking apart algorithms (Linear-Regression, Logistic-Regression, SVMs,
+Decision-Trees, Naive-Bays, KNN, CNN, RNN & Perceptron) until the math behind them is boring and obvious. I've run a
+Robotics & Automation workshop for 50+ students, worked across the MERN stack and
 I'm most productive when a problem has both a clean mathematical structure and a real
 system to ship it in.
 
-Outside of code: chess, basketball, cricket, and competitive e-sports — different boards,
+Outside of code: chess, basketball, cricket and competitive e-sports — different boards &
 same instinct for reading a few moves ahead.
 
 <br/>
