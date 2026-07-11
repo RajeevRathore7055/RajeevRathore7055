@@ -244,7 +244,7 @@ Focused implementations of core ML algorithms.
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RajeevRathore7055&theme=tokyonight&hide_border=true&background=0D0D0D&ring=C77DFF&fire=FF3864&currStreakLabel=FF8C42" />
+<img src="https://streak-stats.demolab.com/?user=RajeevRathore7055&theme=tokyonight&hide_border=true&background=0D0D0D&ring=C77DFF&fire=FF3864&currStreakLabel=FF8C42" />
 
 <br/>
 
@@ -252,7 +252,7 @@ Focused implementations of core ML algorithms.
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=RajeevRathore7055&theme=darkhub&no-frame=true&margin-w=8&row=1" />
+<img src="https://github-trophies.vercel.app/?username=RajeevRathore7055&theme=darkhub&no-frame=true&margin-w=8&row=1" />
 
 </div>
 
