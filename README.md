@@ -22,7 +22,7 @@
 
 I'm an Agentic AI Intern at **Innomatics Research Labs**, currently building agent-based
 AI systems with LangChain and LangGraph, backed by FastAPI services and AWS infrastructure.
-My work sits at the intersection of **mathematics and machine learning** —<br><br>I like problems
+My work sits at the intersection of **mathematics and machine learning** <br><br>I like problems
 that reduce cleanly to an objective function and systems that reduce cleanly to an API
 contract. Final-year B.Tech CSE student at RBMI Group of Institutions (AKTU), building
 toward a career designing and shipping real AI agent architectures.
@@ -86,8 +86,9 @@ same instinct for reading a few moves ahead.
 ![HTML5](https://img.shields.io/badge/HTML5-FF3864?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-9D4EDD?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-FF8C42?style=for-the-badge&logo=javascript&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-05998b?style=for-the-badge&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-15161a?style=for-the-badge&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-05998b?style=for-the-badge&logo=fastapi&logoColor=white)
+
 
 </details>
 
@@ -122,6 +123,8 @@ same instinct for reading a few moves ahead.
 ![Git](https://img.shields.io/badge/Git-9D4EDD?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-15161a?style=for-the-badge&logo=github&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VS%20Code-FF8C42?style=for-the-badge&logo=visualstudiocode&logoColor=black)
+![Codeium](https://img.shields.io/badge/Codeium-09B6A2?style=for-the-badge&logo=codeium&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-000000?style=for-the-badge&logoColor=white)
 
 `Selenium` · `Matplotlib` · `Codeium`
 
@@ -288,16 +291,16 @@ Focused implementations of core ML algorithms.
 ## Experience
 
 **Agentic AI Intern** · Innomatics Research Labs *(Feb 2026 – Present · Remote)*
-Building and deploying agent-based AI applications with Python, FastAPI, LangChain, and
-LangGraph; applying AWS for cloud-based AI solutions.
+Building and deploying agent-based AI applications with Python, FastAPI, LangChain and
+LangGraph & Applying AWS for cloud-based AI solutions.
 
 **Co-Organizer & Technical Facilitator — Robotics & Automation Workshop** · RBMI Group of
 Institutions *(May 2025)*
 Facilitated a hands-on Robotics & Automation workshop for 50+ students (Classes 9–12) with
-a 6-member team, covering electronics, sensors, and automation tools.
+a 6-member team, covering electronics, sensors and automation tools.
 
 **MERN Stack Intern**
-Full-stack web development using MongoDB/MySQL, Express.js, React.js, and Node.js.
+Full-stack web development using MongoDB/MySQL, Express.js, React.js and Node.js.
 
 <br/>
 
@@ -327,7 +330,7 @@ Full-stack web development using MongoDB/MySQL, Express.js, React.js, and Node.j
 
 <div align="center">
 
-Open to conversations on agentic AI, machine learning, and anything that starts
+Open to conversations on agentic AI, machine learning and anything that starts
 with a well-posed problem.
 
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-9D4EDD?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rajeev-rathore01)
@@ -339,5 +342,5 @@ with a well-posed problem.
 <br/>
 
 <div align="center">
-<sub>Built with Python, mathematics, and a lot of tab-switching between docs.</sub>
+<sub>Built with Python, Mathematics and a lot of tab-switching between docs.</sub>
 </div>
