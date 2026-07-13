@@ -108,6 +108,16 @@ same instinct for reading a few moves ahead.
 </details>
 
 <details open>
+<summary><b>🧮 Mathematics</b></summary><br/>
+
+![Linear Algebra](https://img.shields.io/badge/Linear%20Algebra-8B5CF6?style=for-the-badge&logo=matrix&logoColor=white)
+![Calculus](https://img.shields.io/badge/Calculus-3B82F6?style=for-the-badge&logo=wolfram&logoColor=white)
+![Statistical Learning](https://img.shields.io/badge/Statistical%20Learning-10B981?style=for-the-badge&logo=databricks&logoColor=white)
+![Probability](https://img.shields.io/badge/Probability-EC4899?style=for-the-badge&logo=probot&logoColor=white)
+
+</details>
+
+<details open>
 <summary><b>Mathematics</b></summary><br/>
 
 `Linear Algebra` · `Calculus` · `Statistical Learning` · `Probability Foundations for ML`
@@ -126,7 +136,7 @@ same instinct for reading a few moves ahead.
 ![Codeium](https://img.shields.io/badge/Codeium-09B6A2?style=for-the-badge&logo=codeium&logoColor=white)
 ![Antigravity](https://img.shields.io/badge/Antigravity-000000?style=for-the-badge&logoColor=white)
 
-`Selenium` · `Matplotlib` · `Codeium`
+`Selenium` · `Matplotlib`
 
 </details>
 
