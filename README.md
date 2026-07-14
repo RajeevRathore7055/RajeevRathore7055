@@ -114,6 +114,7 @@ same instinct for reading a few moves ahead.
 ![Calculus](https://img.shields.io/badge/Calculus-3B82F6?style=for-the-badge&logo=wolfram&logoColor=white)
 ![Statistical Learning](https://img.shields.io/badge/Statistical%20Learning-10B981?style=for-the-badge&logo=databricks&logoColor=white)
 ![Probability](https://img.shields.io/badge/Probability-EC4899?style=for-the-badge&logo=probot&logoColor=white)
+<br><br>
 `Linear Algebra` · `Calculus` · `Statistical Learning` · `Probability Foundations for ML`
 
 </details>
