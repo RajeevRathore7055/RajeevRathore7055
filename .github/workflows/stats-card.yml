@@ -1,18 +1,28 @@
+
 name: Generate GitHub Stats Card
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # once a day
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Prevent simultaneous workflows from pushing to main
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Generate stats + top languages card
         uses: lowlighter/metrics@latest
@@ -27,10 +37,21 @@ jobs:
           config_timezone: Asia/Kolkata
           config_output: svg
 
-      - name: Commit & Push
+      - name: Commit and Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A
-          git commit -m "chore: update stats card" || echo "nothing to commit"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/stats-card.svg
+
+          if git diff --cached --quiet; then
+            echo "No stats card changes. Skipping commit and push."
+            exit 0
+          fi
+
+          git commit -m "chore: update stats card"
+
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main
