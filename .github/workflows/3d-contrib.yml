@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
 
-# Prevent simultaneous pushes with the stats card workflow
+# This must be outside the run script
 concurrency:
   group: profile-assets
   cancel-in-progress: false
