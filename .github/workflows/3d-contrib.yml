@@ -8,13 +8,15 @@ on:
 permissions:
   contents: write
 
+# Same group as stats-card.yml so the two never push to main at the same time
 concurrency:
-  group: profile-3d-contrib
+  group: profile-assets
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v5
@@ -26,17 +28,19 @@ jobs:
 
       - name: Commit & Push (with retry)
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
           git commit -m "chore: update 3D contribution skyline"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD:main && exit 0
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
             echo "Push failed (attempt $i), retrying..."
-            sleep 5
+            sleep $((i * 5))
           done
           exit 1
